@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
   render() {
     return (
-      <header>
+      <header data-testid="header-component">
         <h2>TrybeTunes</h2>
         <nav>
           <ul>
